@@ -6,7 +6,7 @@
 package student;
 
 /**for pull
- *this is commment added
+ *this is comment added
  * @author Ronak
  */
 public class Student {
@@ -22,14 +22,11 @@ public class Student {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    
-   
-    
 }
